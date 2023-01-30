@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Compiled using Javac , out stores all the  (successfully) compiled classes">
-      <change afterPath="$PROJECT_DIR$/src/com/amigoscode/Foo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/amigoscode/foo/Apple.java" afterDir="false" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Access Modifier-Public &#10;&#10;In this Same Class , Different Class and Different Package can access public attribute and methods.">
+      <change afterPath="$PROJECT_DIR$/src/com/amigoscode/SubClassInSamePkg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/amigoscode/foo/SubClassInDiffPkg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Foo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/foo/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/foo/Apple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Foo">
     <configuration name="Apple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amigoscode.foo.Apple" />
       <module name="Java" />
@@ -89,11 +91,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubClassInDiffPkg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amigoscode.foo.SubClassInDiffPkg" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amigoscode.foo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubClassInSamePkg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amigoscode.SubClassInSamePkg" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amigoscode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Apple" />
         <item itemvalue="Application.Foo" />
+        <item itemvalue="Application.Apple" />
+        <item itemvalue="Application.SubClassInSamePkg" />
+        <item itemvalue="Application.SubClassInDiffPkg" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +137,7 @@
       <updated>1674978082141</updated>
       <workItem from="1674978084168" duration="1900000" />
       <workItem from="1674980049435" duration="2720000" />
-      <workItem from="1675060062149" duration="2402000" />
+      <workItem from="1675060062149" duration="3489000" />
     </task>
     <task id="LOCAL-00001" summary="Initial AmigosCode Java Project Setup">
       <created>1674978323360</created>
@@ -137,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674979419701</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Static v/s Non-static Data Member Access Inside Same Class , In Different Class and In Different Package.">
+      <created>1675062859457</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675062859457</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +196,8 @@
     <MESSAGE value="Compiled using Javac , out stores all the (successfully) compiled classes" />
     <MESSAGE value="Compiled using Javac , out stores all the compiled classes" />
     <MESSAGE value="Compiled using Javac , out stores all the  (successfully) compiled classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compiled using Javac , out stores all the  (successfully) compiled classes" />
+    <MESSAGE value="Static v/s Non-static Data Member Access Inside Same Class , In Different Class and In Different Package." />
+    <MESSAGE value="Access Modifier-Public &#10;&#10;In this Same Class , Different Class and Different Package can access public attribute and methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Access Modifier-Public &#10;&#10;In this Same Class , Different Class and Different Package can access public attribute and methods." />
   </component>
 </project>
