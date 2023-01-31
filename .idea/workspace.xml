@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Type Inference with Var keyword&#10;&#10;It works with local variable only.&#10;&#10;Java&gt;=10">
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Enums&#10;&#10;We should use enum types any time you need to represent a fixed set of constants.">
+      <change afterPath="$PROJECT_DIR$/src/com/amigoscode/Color.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
     </list>
@@ -16,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -205,7 +207,28 @@
       <option name="project" value="LOCAL" />
       <updated>1675149144793</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Final keyword , &#10;&#10;Its like const in c++ but it comes with limited usage compared to c++.">
+      <created>1675154064558</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675154064558</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Final keyword&#10;&#10;Its like const in c++ but it comes with limited usage compared to c++.">
+      <created>1675154072387</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675154072387</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Enums&#10;&#10;We should use enum types any time you need to represent a fixed set of constants.">
+      <created>1675156418313</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675156418313</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +242,36 @@
             <State />
           </value>
         </entry>
+        <entry key="b2f70141-b19a-4619-9a36-7573b0684428">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/ibrijesh/Desktop/Java- Amigo Code/Java/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="b2f70141-b19a-4619-9a36-7573b0684428" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
@@ -235,6 +288,9 @@
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes (but not non-static members)" />
     <MESSAGE value="Access Modifier-Default&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               No" />
     <MESSAGE value="Type Inference with Var keyword&#10;&#10;It works with local variable only.&#10;&#10;Java&gt;=10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Type Inference with Var keyword&#10;&#10;It works with local variable only.&#10;&#10;Java&gt;=10" />
+    <MESSAGE value="Final keyword , &#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
+    <MESSAGE value="Final keyword&#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
+    <MESSAGE value="Enums&#10;&#10;We should use enum types any time you need to represent a fixed set of constants." />
+    <option name="LAST_COMMIT_MESSAGE" value="Enums&#10;&#10;We should use enum types any time you need to represent a fixed set of constants." />
   </component>
 </project>

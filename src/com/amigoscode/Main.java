@@ -1,5 +1,7 @@
 package com.amigoscode;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -13,6 +15,15 @@ public class Main {
 
         TShirtSize small = TShirtSize.S;
         TShirtSize large = TShirtSize.L;
+
+        // Enum Methods
+        System.out.println(
+                Gender.valueOf("FEMALE")
+        );
+
+        System.out.println(
+                Arrays.toString(Gender.values())
+        );
 
 
         System.out.println(male);
