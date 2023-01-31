@@ -1,29 +1,28 @@
 package com.amigoscode;
 
-import java.awt.*;
-
 public class Main {
 
-    final static String foo = "bar";
-
     public static void main(String[] args) {
-        // final keyword , its like const in c++ but it with limited usage compared to c++
+        // Enums
 
-        // foo = "Hello"; not allowed
+        Gender male = Gender.MALE;
+        Gender female = Gender.FEMALE;
 
-        final var name = "Brijesh";
-        //  name="Rahul" not allowed
+        Color red = Color.RED;
+        Color black = Color.BLACK;
 
-        final Point point = new Point(2, 4);
-        //point = new Point(4, 5) not allowed because class object is declared as final.
-        point.x = 4;
-        point.y = 6;
-        // allowed because variable are declared final in class Point
+        TShirtSize small = TShirtSize.S;
+        TShirtSize large = TShirtSize.L;
 
-        System.out.println(foo);
-        System.out.println(name);
-        System.out.println(point);
 
+        System.out.println(male);
+        System.out.println(female);
+
+        System.out.println(red);
+        System.out.println(black);
+
+        System.out.println(small);
+        System.out.println(large);
 
     }
 
