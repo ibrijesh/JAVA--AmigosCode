@@ -2,9 +2,9 @@ package com.amigoscode;
 
 public class Main {
 
-    public static String foo = "foo-bar";   // static data member, its part of class no Instance, therefore we can access it without  creating Object.
+    private static String foo = "foo-bar";   // static data member, its part of class no Instance, therefore we can access it without  creating Object.
 
-    public  String fuu = "fuu-bar";    // non-static data member, its part of class Instance, therefore we have to   create Object to access it.
+    private   String fuu = "fuu-bar";    // non-static data member, its part of class Instance, therefore we have to   create Object to access it.
 
     public static void main(String[] args) {
 
