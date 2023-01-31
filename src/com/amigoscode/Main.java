@@ -1,39 +1,33 @@
 package com.amigoscode;
 
-import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-        // Enums
+        // Wrapper Classes //
+          /*
+            Primitive Type	  Wrapper class
+                boolean	        Boolean
+                char	        Character
+                byte	        Byte
+                short	        Short
+                int	            Integer
+                long	        Long
+                float	        Float
+                double	        Double
+           */
 
-        Gender male = Gender.MALE;
-        Gender female = Gender.FEMALE;
+        Integer age = 33;
+        Double price = 206.77;
+        var ageStr = "55";
+        int a = Integer.parseInt(ageStr);
 
-        Color red = Color.RED;
-        Color black = Color.BLACK;
+        System.out.println(a);
+        System.out.println(Integer.min(-7,8));
 
-        TShirtSize small = TShirtSize.S;
-        TShirtSize large = TShirtSize.L;
+    }
 
-        // Enum Methods
-        System.out.println(
-                Gender.valueOf("FEMALE")
-        );
-
-        System.out.println(
-                Arrays.toString(Gender.values())
-        );
-
-
-        System.out.println(male);
-        System.out.println(female);
-
-        System.out.println(red);
-        System.out.println(black);
-
-        System.out.println(small);
-        System.out.println(large);
+    public static void change(Integer age){
 
     }
 

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Enums&#10;&#10;We should use enum types any time you need to represent a fixed set of constants.">
-      <change afterPath="$PROJECT_DIR$/src/com/amigoscode/Color.java" afterDir="false" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Enums -Methods&#10;&#10;We should use enum types any time you need to represent a fixed set of constants.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Gender.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/TShirtSize.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675156418313</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Enums -Methods&#10;&#10;We should use enum types any time you need to represent a fixed set of constants.">
+      <created>1675156600239</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1675156600239</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +300,7 @@
     <MESSAGE value="Final keyword , &#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
     <MESSAGE value="Final keyword&#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
     <MESSAGE value="Enums&#10;&#10;We should use enum types any time you need to represent a fixed set of constants." />
-    <option name="LAST_COMMIT_MESSAGE" value="Enums&#10;&#10;We should use enum types any time you need to represent a fixed set of constants." />
+    <MESSAGE value="Enums -Methods&#10;&#10;We should use enum types any time you need to represent a fixed set of constants." />
+    <option name="LAST_COMMIT_MESSAGE" value="Enums -Methods&#10;&#10;We should use enum types any time you need to represent a fixed set of constants." />
   </component>
 </project>
