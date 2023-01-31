@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes (but not non-static members)">
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Access Modifier-Default&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               No">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Foo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/SubClassInSamePkg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/foo/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/foo/SubClassInDiffPkg.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675147576945</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Access Modifier-Default&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               No">
+      <created>1675147863962</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675147863962</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +230,7 @@
     <MESSAGE value="Access Modifier-Private&#10;&#10;Same Class                               Yes&#10;Same Package Class                       No &#10;Same Package SubClass                    No&#10;Different Package                        No &#10;Different Package SubClass               No" />
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes(but not non-static members)" />
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes (but not non-static members)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes (but not non-static members)" />
+    <MESSAGE value="Access Modifier-Default&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               No" />
+    <option name="LAST_COMMIT_MESSAGE" value="Access Modifier-Default&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               No" />
   </component>
 </project>

@@ -1,32 +1,27 @@
 package com.amigoscode;
 
+import java.util.Arrays;
+
 public class Main {
 
-     static String foo = "foo-bar";   // static data member, its part of class no Instance, therefore we can access it without  creating Object.
-
-     String fuu = "fuu-bar";    // non-static data member, its part of class Instance, therefore we have to   create Object to access it.
-
+    // static var foo="bar";   var not allowed
 
     public static void main(String[] args) {
+        // Type Inference with var keyword , it works with local variable only //
 
-        // for foo (static data member), we do not need to create object.
-            System.out.println(
-                    Main.foo
-            );
-
-                   // OR  //
-
-            System.out.println(
-                     foo
-            );
+        var name = "Brijesh";
+        var names = new String[]{"CR7", "CJ7", "Ram", "Bheem", "Raju"};
+        var age=22;
+        var balance =1_000_000.33;
 
 
-        // for fuu (non-static data member). we have to create object of class
-            Main main = new Main();
 
-            System.out.println(
-                    main.fuu
-            );
+        System.out.println(name);
+        System.out.println(
+                Arrays.toString(names)
+        );
+        System.out.println(age);
+        System.out.println(balance);
 
     }
 
