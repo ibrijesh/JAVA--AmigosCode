@@ -6,17 +6,21 @@ public class Main {
     public static void main(String[] args) {
        // Strings //
 
-        String name="Jamila";
+        /* These are String Literal , they are referenced in String Pool */
 
-        System.out.println(name.toLowerCase());
-        System.out.println(name.toUpperCase());
-        System.out.println(" ".isBlank());
-        System.out.println(" ".isEmpty());
-        System.out.println(" Hello ".trim());
-        System.out.println(name.startsWith("J"));
-        System.out.println(name.substring(1));
-        System.out.println(name.substring(1,4));
+        String name1="Jamila";
+        String name2="Jamila";
 
+        // both are pointing(referencing) to same memory location in String Pool.  (see photos)
+        System.out.println(name1.hashCode());
+        System.out.println(name2.hashCode());
+
+
+        name2="Alex";
+
+        // now both are pointing(referencing) to Different memory location in String Pool. (see photos)
+        System.out.println(name1.hashCode());
+        System.out.println(name2.hashCode());
 
     }
 
