@@ -1,15 +1,17 @@
 package com.amigoscode;
 
+import java.math.BigDecimal;
+
 public class Main {
 
     public static void main(String[] args) {
         // Problem with double
 
-        double a = 0.02;
-        double b = 0.03;
-        double c = b - a;
+        BigDecimal a = new BigDecimal("0.2");
+        BigDecimal b = new BigDecimal("0.3");
+        BigDecimal c = b.subtract(a);
 
-        System.out.println(c);  // precision issue, we got 0.009999999999999998 instead of 0.1
+        System.out.println(c);  // no precision issue, we got  0.1
 
 
     }
