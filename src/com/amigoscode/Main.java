@@ -5,13 +5,26 @@ import java.math.BigDecimal;
 public class Main {
 
     public static void main(String[] args) {
-        // Problem with double
+        // Working with BigDecimal
 
-        BigDecimal a = new BigDecimal("0.2");
-        BigDecimal b = new BigDecimal("0.3");
-        BigDecimal c = b.subtract(a);
+        BigDecimal number = BigDecimal.TEN;
 
-        System.out.println(c);  // no precision issue, we got  0.1
+        System.out.println(number);
+        System.out.println(
+                number.add(BigDecimal.ONE)
+        );
+        System.out.println(
+                number.max(BigDecimal.ZERO)
+        );
+        System.out.println(
+                number.compareTo(BigDecimal.ZERO)
+        );
+        System.out.println(
+                number.compareTo(new BigDecimal("11"))
+        );
+        System.out.println(
+                number.compareTo(BigDecimal.TEN)
+        );
 
 
     }

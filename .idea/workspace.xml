@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Big Decimal - Problem with Double&#10;&#10;&#10;Precision Issue with Double.">
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Big Decimal - Working &#10;&#10;&#10;Solves Precision Issue with Double" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -284,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675418912809</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Big Decimal - Working &#10;&#10;&#10;Solves Precision Issue with Double">
+      <created>1675419189472</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1675419189472</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +359,7 @@
     <MESSAGE value="Dates - Creating a Specific Date" />
     <MESSAGE value="Dates - Working with ZoneId" />
     <MESSAGE value="Big Decimal - Problem with Double&#10;&#10;&#10;Precision Issue with Double." />
-    <option name="LAST_COMMIT_MESSAGE" value="Big Decimal - Problem with Double&#10;&#10;&#10;Precision Issue with Double." />
+    <MESSAGE value="Big Decimal - Working &#10;&#10;&#10;Solves Precision Issue with Double" />
+    <option name="LAST_COMMIT_MESSAGE" value="Big Decimal - Working &#10;&#10;&#10;Solves Precision Issue with Double" />
   </component>
 </project>
