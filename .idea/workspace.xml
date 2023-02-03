@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Enums -Methods&#10;&#10;We should use enum types any time you need to represent a fixed set of constants.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Color.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Gender.java" beforeDir="false" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Wrapper Class&#10;&#10;The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.&#10;&#10;Change the value in Method: Java supports only call by value. So, if we pass a primitive value, it will not change the original value. But, if we convert the primitive value in an object, it will change the original value.">
       <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/TShirtSize.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ibrijesh/Desktop/Java- Amigo Code/JAVA-AmigosCode&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -138,6 +135,7 @@
       <workItem from="1674978084168" duration="1900000" />
       <workItem from="1674980049435" duration="2720000" />
       <workItem from="1675060062149" duration="3489000" />
+      <workItem from="1675413595896" duration="468000" />
     </task>
     <task id="LOCAL-00001" summary="Initial AmigosCode Java Project Setup">
       <created>1674978323360</created>
@@ -237,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675156600239</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Wrapper Class&#10;&#10;The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.&#10;&#10;Change the value in Method: Java supports only call by value. So, if we pass a primitive value, it will not change the original value. But, if we convert the primitive value in an object, it will change the original value.">
+      <created>1675413676691</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1675413676691</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +306,7 @@
     <MESSAGE value="Final keyword&#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
     <MESSAGE value="Enums&#10;&#10;We should use enum types any time you need to represent a fixed set of constants." />
     <MESSAGE value="Enums -Methods&#10;&#10;We should use enum types any time you need to represent a fixed set of constants." />
-    <option name="LAST_COMMIT_MESSAGE" value="Enums -Methods&#10;&#10;We should use enum types any time you need to represent a fixed set of constants." />
+    <MESSAGE value="Wrapper Class&#10;&#10;The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.&#10;&#10;Change the value in Method: Java supports only call by value. So, if we pass a primitive value, it will not change the original value. But, if we convert the primitive value in an object, it will change the original value." />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrapper Class&#10;&#10;The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.&#10;&#10;Change the value in Method: Java supports only call by value. So, if we pass a primitive value, it will not change the original value. But, if we convert the primitive value in an object, it will change the original value." />
   </component>
 </project>
