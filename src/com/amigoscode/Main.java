@@ -1,29 +1,44 @@
 package com.amigoscode;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.Month;
 
 public class Main {
 
     public static void main(String[] args) {
-        // Working with Dates (LocalDate and LocalTime Classes.
+        // Creating specific Date with LocalDateTime .
 
-        LocalDate localDate = LocalDate.now();   // LocalDate
+        LocalDateTime someDate = LocalDateTime.of(
+                1998,
+                Month.OCTOBER,
+                2,
+                10,
+                10
+        );
 
-        System.out.println(localDate);
-        System.out.println(localDate.getDayOfMonth());
-        System.out.println(localDate.getDayOfWeek());
-        System.out.println(localDate.getDayOfYear());
-        System.out.println(localDate.minusDays(5));
+        System.out.println(someDate);
 
-        LocalTime localTime = LocalTime.now();   // LocalTime
+        // Creating specific Date with LocalDate .
 
+        LocalDate someDate2 = LocalDate.of(
+                1998,
+                Month.OCTOBER,
+                2
+        );
 
-        System.out.println(localTime);
-        System.out.println(localTime.getHour());
-        System.out.println(localTime.getMinute());
-        System.out.println(localTime.getSecond());
+        System.out.println(someDate2);
 
+        // Creating specific Date with LocalTime .
+
+        LocalTime someTime = LocalTime.of(
+                10,
+                10,
+                55
+        );
+
+        System.out.println(someTime);
 
     }
 
