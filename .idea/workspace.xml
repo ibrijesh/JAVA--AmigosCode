@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment=" What is an exception&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions.">
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Don't know the type of Exception." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -326,7 +324,35 @@
       <option name="project" value="LOCAL" />
       <updated>1675592590775</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Try and Catch&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions.">
+      <created>1675592789724</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1675592789724</updated>
+    </task>
+    <task id="LOCAL-00028" summary="0117 Multiple Catch Blocks&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions.">
+      <created>1675592916309</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1675592916309</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Multiple Catch Blocks&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions.">
+      <created>1675593128919</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1675593128919</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Don't know the type of Exception.">
+      <created>1675593484964</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1675593484964</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,10 +400,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Compiled using Javac , out stores all the  (successfully) compiled classes" />
-    <MESSAGE value="Static v/s Non-static Data Member Access Inside Same Class , In Different Class and In Different Package." />
-    <MESSAGE value="Access Modifier-Public &#10;&#10;In this Same Class , Different Class and Different Package can access public attribute and methods." />
-    <MESSAGE value="Access Modifier-Public&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        Yes &#10;Different Package SubClass               Yes" />
     <MESSAGE value="Access Modifier-Private&#10;&#10;Same Class                               Yes&#10;Same Package Class                       No &#10;Same Package SubClass                    No&#10;Different Package                        No &#10;Different Package SubClass               No" />
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes(but not non-static members)" />
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes (but not non-static members)" />
@@ -399,6 +421,10 @@
     <MESSAGE value="What is an exception&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions." />
     <MESSAGE value="Exception Handling - What is an exception&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions." />
     <MESSAGE value=" What is an exception&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions." />
-    <option name="LAST_COMMIT_MESSAGE" value=" What is an exception&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions." />
+    <MESSAGE value="Try and Catch&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions." />
+    <MESSAGE value="0117 Multiple Catch Blocks&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions." />
+    <MESSAGE value="Multiple Catch Blocks&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions." />
+    <MESSAGE value="Don't know the type of Exception." />
+    <option name="LAST_COMMIT_MESSAGE" value="Don't know the type of Exception." />
   </component>
 </project>
