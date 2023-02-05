@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Big Decimal - Working with Other Methods.&#10;&#10;&#10;Solves Precision Issue with Double">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Taking User Input - Scanner">
       <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +136,7 @@
       <workItem from="1674980049435" duration="2720000" />
       <workItem from="1675060062149" duration="3489000" />
       <workItem from="1675413595896" duration="468000" />
-      <workItem from="1675587148674" duration="366000" />
+      <workItem from="1675587148674" duration="1312000" />
     </task>
     <task id="LOCAL-00001" summary="Initial AmigosCode Java Project Setup">
       <created>1674978323360</created>
@@ -300,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675419852736</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Taking User Input - Scanner">
+      <created>1675587734124</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1675587734124</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +378,7 @@
     <MESSAGE value="Big Decimal - Problem with Double&#10;&#10;&#10;Precision Issue with Double." />
     <MESSAGE value="Big Decimal - Working &#10;&#10;&#10;Solves Precision Issue with Double" />
     <MESSAGE value="Big Decimal - Working with Other Methods.&#10;&#10;&#10;Solves Precision Issue with Double" />
-    <option name="LAST_COMMIT_MESSAGE" value="Big Decimal - Working with Other Methods.&#10;&#10;&#10;Solves Precision Issue with Double" />
+    <MESSAGE value="Taking User Input - Scanner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Taking User Input - Scanner" />
   </component>
 </project>
