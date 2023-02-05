@@ -1,31 +1,17 @@
 package com.amigoscode;
 
-import java.math.BigDecimal;
+
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        // Working with BigDecimal
+        // Scanner
 
-        BigDecimal number = BigDecimal.TEN;
-
-        System.out.println(number);
-        System.out.println(
-                number.add(BigDecimal.ONE)
-        );
-        System.out.println(
-                number.max(BigDecimal.ZERO)
-        );
-        System.out.println(
-                number.compareTo(BigDecimal.ZERO)
-        );
-        System.out.println(
-                number.compareTo(new BigDecimal("11"))
-        );
-        System.out.println(
-                number.compareTo(BigDecimal.TEN)
-        );
-
+        System.out.println("What's your name?");
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        System.out.println("Hello " + input);
 
     }
 
