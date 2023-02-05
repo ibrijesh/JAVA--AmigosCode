@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Strings - Comparing Strings with == vs .equals&#10;&#10;==&#10;  It compare reference value of given memory location.&#10;&#10;.equal&#10;  It compare value stored in given memory location.&#10;&#10;&#10;  For comparing values always use .equals">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment=" What is an exception&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions.">
       <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -313,7 +312,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675587734124</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Exception Handling - What is an exception&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions.">
+      <created>1675592574000</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1675592574000</updated>
+    </task>
+    <task id="LOCAL-00026" summary=" What is an exception&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions.">
+      <created>1675592590775</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675592590775</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,9 +374,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial AmigosCode Java Project Setup" />
-    <MESSAGE value="Compiled using Javac , out stores all the (successfully) compiled classes" />
-    <MESSAGE value="Compiled using Javac , out stores all the compiled classes" />
     <MESSAGE value="Compiled using Javac , out stores all the  (successfully) compiled classes" />
     <MESSAGE value="Static v/s Non-static Data Member Access Inside Same Class , In Different Class and In Different Package." />
     <MESSAGE value="Access Modifier-Public &#10;&#10;In this Same Class , Different Class and Different Package can access public attribute and methods." />
@@ -386,6 +396,9 @@
     <MESSAGE value="Big Decimal - Working &#10;&#10;&#10;Solves Precision Issue with Double" />
     <MESSAGE value="Big Decimal - Working with Other Methods.&#10;&#10;&#10;Solves Precision Issue with Double" />
     <MESSAGE value="Taking User Input - Scanner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Taking User Input - Scanner" />
+    <MESSAGE value="What is an exception&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions." />
+    <MESSAGE value="Exception Handling - What is an exception&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions." />
+    <MESSAGE value=" What is an exception&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions." />
+    <option name="LAST_COMMIT_MESSAGE" value=" What is an exception&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions." />
   </component>
 </project>
