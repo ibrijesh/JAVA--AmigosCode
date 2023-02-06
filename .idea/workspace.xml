@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="UnChecked Exception -  Run Time">
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Throw and Throws&#10;&#10;Throw - Used to throw exception&#10;&#10;Throws - Used to declare exceptions. It specifies that there may occur an exception in the method. It doesn't throw an exception. It is always used with method signature.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
     </list>
@@ -384,7 +384,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675673297075</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Throw and Throws&#10;&#10;Throw - Used to throw exception&#10;&#10;Throws - Used to declare exceptions. It specifies that there may occur an exception in the method. It doesn't throw an exception. It is always used with method signature.">
+      <created>1675678653773</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1675678653773</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Throw and Throws&#10;&#10;Throw - Used to throw exception&#10;&#10;Throws - Used to declare exceptions. It specifies that there may occur an exception in the method. It doesn't throw an exception. It is always used with method signature.">
+      <created>1675678741645</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1675678741645</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +447,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Type Inference with Var keyword&#10;&#10;It works with local variable only.&#10;&#10;Java&gt;=10" />
     <MESSAGE value="Final keyword , &#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
     <MESSAGE value="Final keyword&#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
     <MESSAGE value="Enums&#10;&#10;We should use enum types any time you need to represent a fixed set of constants." />
@@ -458,7 +471,8 @@
     <MESSAGE value="Exception Hierarchy &#10;&#10;-See photo and video for better understanding" />
     <MESSAGE value="Checked Exception -  Compile Time &#10;&#10;Program cannot be run without handling checked exceptions." />
     <MESSAGE value="UnChecked Exception -  Run Time" />
-    <option name="LAST_COMMIT_MESSAGE" value="UnChecked Exception -  Run Time" />
+    <MESSAGE value="Throw and Throws&#10;&#10;Throw - Used to throw exception&#10;&#10;Throws - Used to declare exceptions. It specifies that there may occur an exception in the method. It doesn't throw an exception. It is always used with method signature." />
+    <option name="LAST_COMMIT_MESSAGE" value="Throw and Throws&#10;&#10;Throw - Used to throw exception&#10;&#10;Throws - Used to declare exceptions. It specifies that there may occur an exception in the method. It doesn't throw an exception. It is always used with method signature." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
