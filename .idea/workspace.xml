@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Don't know the type of Exception." />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Don't know the type of Exception.&#10;&#10;Exception Class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -352,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675593484964</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Don't know the type of Exception.&#10;&#10;Exception Class">
+      <created>1675593843417</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1675593843417</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +407,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Access Modifier-Private&#10;&#10;Same Class                               Yes&#10;Same Package Class                       No &#10;Same Package SubClass                    No&#10;Different Package                        No &#10;Different Package SubClass               No" />
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes(but not non-static members)" />
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes (but not non-static members)" />
     <MESSAGE value="Access Modifier-Default&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               No" />
@@ -425,6 +431,7 @@
     <MESSAGE value="0117 Multiple Catch Blocks&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions." />
     <MESSAGE value="Multiple Catch Blocks&#10;&#10;Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions." />
     <MESSAGE value="Don't know the type of Exception." />
-    <option name="LAST_COMMIT_MESSAGE" value="Don't know the type of Exception." />
+    <MESSAGE value="Don't know the type of Exception.&#10;&#10;Exception Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Don't know the type of Exception.&#10;&#10;Exception Class" />
   </component>
 </project>

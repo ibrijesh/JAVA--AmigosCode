@@ -7,7 +7,7 @@ public class Main {
         // Exceptions
 
         try {
-            int number = Integer.parseInt("1x");   // char '1-9' are only allowed
+            int number = Integer.parseInt("1");   // char '1-9' are only allowed
             System.out.println(number);
 
             for (int i = 10; i >= 0; --i)
@@ -17,6 +17,9 @@ public class Main {
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
+        }
+        finally {
+            System.out.println("Program Executed Successfully");
         }
     }
 
