@@ -1,22 +1,21 @@
 package com.amigoscode;
 
 
-import java.io.File;
-import java.io.IOException;
-
 public class Main {
 
-    public static void main(String[] args)  {
-        // Checked Exceptions  (if not handled program will not run)
+    public static void main(String[] args) {
+        // UnChecked Exceptions
 
-        try{
-            File file = new File("src/ABC/foo.txt");   // invalid file path.
+        try {
+            int number = Integer.parseInt("1x");   // char '1-9' are only allowed
+            System.out.println(number);
 
-            if(!file.exists())
-               file.createNewFile();
-        }
-        catch (IOException e)
-        {
+            for (int i = 10; i >= 0; --i)
+                System.out.println(10 / i);  // divide by zero
+
+            System.out.println("END");
+
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }
 
