@@ -1,13 +1,23 @@
 package com.amigoscode;
 
 import java.io.*;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
         // Creating a File
         File file = createFile("src/foo.txt");
-        writeToFile(file, true, "Cristiano");
+        // writeToFile(file, true, "Cristiano");
+
+        try {
+            Scanner scanner = new Scanner(file);
+            while (scanner.hasNext())
+                System.out.println(scanner.nextLine());
+
+        } catch (FileNotFoundException e) {
+            System.out.println(e.getMessage());
+        }
 
     }
 

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Working with Files - Create and Delete a File.">
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Working with Files - Writing to Files">
       <change afterPath="$PROJECT_DIR$/src/foo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
@@ -343,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675687803204</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Working with Files - Writing to Files">
+      <created>1675692058993</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1675692058993</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +399,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Compiled using Javac , out stores all the  (successfully) compiled classes" />
     <MESSAGE value="Static v/s Non-static Data Member Access Inside Same Class , In Different Class and In Different Package." />
     <MESSAGE value="Access Modifier-Public &#10;&#10;In this Same Class , Different Class and Different Package can access public attribute and methods." />
     <MESSAGE value="Access Modifier-Public&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        Yes &#10;Different Package SubClass               Yes" />
@@ -417,6 +423,7 @@
     <MESSAGE value="Working with Files&#10;&#10;Creating and Delete a File." />
     <MESSAGE value="Working with Files - Creating and Delete a File." />
     <MESSAGE value="Working with Files - Create and Delete a File." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with Files - Create and Delete a File." />
+    <MESSAGE value="Working with Files - Writing to Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with Files - Writing to Files" />
   </component>
 </project>
