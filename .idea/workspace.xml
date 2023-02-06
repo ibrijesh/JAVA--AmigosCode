@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Checked Exception -  Compile Time &#10;&#10;Program cannot be run without handling checked exceptions.">
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="UnChecked Exception -  Run Time">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -376,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675673155220</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="UnChecked Exception -  Run Time">
+      <created>1675673297075</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1675673297075</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +433,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Access Modifier-Default&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               No" />
     <MESSAGE value="Type Inference with Var keyword&#10;&#10;It works with local variable only.&#10;&#10;Java&gt;=10" />
     <MESSAGE value="Final keyword , &#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
     <MESSAGE value="Final keyword&#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
@@ -450,6 +457,17 @@
     <MESSAGE value="Don't know the type of Exception.&#10;&#10;Exception Class" />
     <MESSAGE value="Exception Hierarchy &#10;&#10;-See photo and video for better understanding" />
     <MESSAGE value="Checked Exception -  Compile Time &#10;&#10;Program cannot be run without handling checked exceptions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Checked Exception -  Compile Time &#10;&#10;Program cannot be run without handling checked exceptions." />
+    <MESSAGE value="UnChecked Exception -  Run Time" />
+    <option name="LAST_COMMIT_MESSAGE" value="UnChecked Exception -  Run Time" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
