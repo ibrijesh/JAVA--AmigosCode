@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Taking User Input - Scanner">
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Working with Files - Create and Delete a File.">
+      <change afterPath="$PROJECT_DIR$/src/foo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,22 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ibrijesh/Desktop/Java- Amigo Code/JAVA-AmigosCode&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/ibrijesh/Desktop/Java- Amigo Code/JAVA-AmigosCode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Apple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amigoscode.foo.Apple" />
@@ -312,7 +315,35 @@
       <option name="project" value="LOCAL" />
       <updated>1675587734124</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Working with Files&#10;&#10;Creating and Delete a File.">
+      <created>1675687711418</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1675687711419</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Working with Files&#10;&#10;Creating and Delete a File.">
+      <created>1675687761564</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675687761564</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Working with Files - Creating and Delete a File.">
+      <created>1675687781462</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1675687781462</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Working with Files - Create and Delete a File.">
+      <created>1675687803204</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1675687803204</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,9 +391,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial AmigosCode Java Project Setup" />
-    <MESSAGE value="Compiled using Javac , out stores all the (successfully) compiled classes" />
-    <MESSAGE value="Compiled using Javac , out stores all the compiled classes" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Compiled using Javac , out stores all the  (successfully) compiled classes" />
     <MESSAGE value="Static v/s Non-static Data Member Access Inside Same Class , In Different Class and In Different Package." />
     <MESSAGE value="Access Modifier-Public &#10;&#10;In this Same Class , Different Class and Different Package can access public attribute and methods." />
@@ -385,6 +414,9 @@
     <MESSAGE value="Big Decimal - Working &#10;&#10;&#10;Solves Precision Issue with Double" />
     <MESSAGE value="Big Decimal - Working with Other Methods.&#10;&#10;&#10;Solves Precision Issue with Double" />
     <MESSAGE value="Taking User Input - Scanner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Taking User Input - Scanner" />
+    <MESSAGE value="Working with Files&#10;&#10;Creating and Delete a File." />
+    <MESSAGE value="Working with Files - Creating and Delete a File." />
+    <MESSAGE value="Working with Files - Create and Delete a File." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with Files - Create and Delete a File." />
   </component>
 </project>
