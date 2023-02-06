@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Working with Files - Writing to Files">
-      <change afterPath="$PROJECT_DIR$/src/foo.txt" afterDir="false" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Working with Files - Try with Resources&#10;&#10;Any class which Implements Closeable ,Flushable need not to write flush() and close() rather can use Try with resources.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
     </list>
@@ -350,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675692058993</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Working with Files - Reading From Files">
+      <created>1675692864390</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1675692864390</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,8 +405,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Static v/s Non-static Data Member Access Inside Same Class , In Different Class and In Different Package." />
-    <MESSAGE value="Access Modifier-Public &#10;&#10;In this Same Class , Different Class and Different Package can access public attribute and methods." />
     <MESSAGE value="Access Modifier-Public&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        Yes &#10;Different Package SubClass               Yes" />
     <MESSAGE value="Access Modifier-Private&#10;&#10;Same Class                               Yes&#10;Same Package Class                       No &#10;Same Package SubClass                    No&#10;Different Package                        No &#10;Different Package SubClass               No" />
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes(but not non-static members)" />
@@ -424,6 +428,8 @@
     <MESSAGE value="Working with Files - Creating and Delete a File." />
     <MESSAGE value="Working with Files - Create and Delete a File." />
     <MESSAGE value="Working with Files - Writing to Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with Files - Writing to Files" />
+    <MESSAGE value="Working with Files - Reading From Files" />
+    <MESSAGE value="Working with Files - Try with Resources&#10;&#10;Any class which Implements Closeable ,Flushable need not to write flush() and close() rather can use Try with resources." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with Files - Try with Resources&#10;&#10;Any class which Implements Closeable ,Flushable need not to write flush() and close() rather can use Try with resources." />
   </component>
 </project>

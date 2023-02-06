@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         // Creating a File
         File file = createFile("src/foo.txt");
-        // writeToFile(file, true, "Cristiano");
+        writeToFile(file, true, "Cristiano");
 
         try {
             Scanner scanner = new Scanner(file);
@@ -22,12 +22,11 @@ public class Main {
     }
 
     private static void writeToFile(File file, boolean append, String content) {
-        try {
-            FileWriter fileWriter = new FileWriter(file, append);
-            PrintWriter writer = new PrintWriter(fileWriter);
-            writer.println(content);
-            writer.flush();
-            writer.close();
+
+        try (FileWriter fileWriter = new FileWriter(file, append);
+             PrintWriter writer = new PrintWriter(fileWriter)
+        ) {
+            writer.println("Ronaldo");
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
