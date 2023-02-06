@@ -1,33 +1,27 @@
 package com.amigoscode;
 
-
-import java.util.Scanner;
+import java.io.File;
+import java.io.IOException;
 
 public class Main {
 
     public static void main(String[] args) {
-        // Scanner
+        // Creating a File
 
-        System.out.println("What's your name?");
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
-        System.out.println("Hello " + input);
+        try {
+            File file = new File("src/foo.txt");
 
-        System.out.println("Enter your age :");
+            /* creating new file */
+            if (!file.exists())
+                file.createNewFile();
 
-        int age = scanner.nextInt();
+            /* Deleting new File */
+            if (file.exists())
+                file.delete();
 
-        if (age < 18)
-            System.out.println("You are a child");
-        else
-            System.out.println("You are adult");
-
-        System.out.println("Enter your average marks :");
-
-        double average = scanner.nextDouble();
-
-        System.out.println("Your average marks is " + average);
-
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
 
     }
 
