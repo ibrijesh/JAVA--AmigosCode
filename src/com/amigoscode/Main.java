@@ -7,8 +7,12 @@ public class Main {
         // Classes and Objects
 
         Cat cat = new Cat();
-        cat.name = "Joe";
+        cat.setName("Joe");
         cat.meow();
+
+        Cat cat1 = new Cat();
+        cat1.setName("Jimmy");
+        cat1.meow();
 
     }
 
@@ -16,10 +20,13 @@ public class Main {
     static class Cat {
         private String name;
 
+        public void setName(String name) {
+            this.name = name;
+        }
+
         public void meow() {
             System.out.println(name + ": meow...");
         }
-
 
     }
 

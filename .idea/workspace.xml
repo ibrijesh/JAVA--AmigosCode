@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Your First Class &#10;&#10;&#10;without static keyword inner class object cannot be created.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Your First Class &#10;&#10;OuterClass can access Inner Class private members.&#10;&#10;without static keyword inner class object cannot be created.">
       <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +145,7 @@
       <workItem from="1675413595896" duration="468000" />
       <workItem from="1675587148674" duration="1312000" />
       <workItem from="1675764002229" duration="1491000" />
-      <workItem from="1675767039554" duration="1557000" />
+      <workItem from="1675767039554" duration="1923000" />
     </task>
     <task id="LOCAL-00001" summary="Initial AmigosCode Java Project Setup">
       <created>1674978323360</created>
@@ -372,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675767444360</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Your First Class &#10;&#10;OuterClass can access Inner Class private members.&#10;&#10;without static keyword inner class object cannot be created.">
+      <created>1675769080296</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1675769080296</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes(but not non-static members)" />
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes (but not non-static members)" />
     <MESSAGE value="Access Modifier-Default&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               No" />
     <MESSAGE value="Type Inference with Var keyword&#10;&#10;It works with local variable only.&#10;&#10;Java&gt;=10" />
@@ -446,6 +451,7 @@
     <MESSAGE value="Final keyword&#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
     <MESSAGE value="Classes and Objects" />
     <MESSAGE value="Your First Class &#10;&#10;&#10;without static keyword inner class object cannot be created." />
-    <option name="LAST_COMMIT_MESSAGE" value="Your First Class &#10;&#10;&#10;without static keyword inner class object cannot be created." />
+    <MESSAGE value="Your First Class &#10;&#10;OuterClass can access Inner Class private members.&#10;&#10;without static keyword inner class object cannot be created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Your First Class &#10;&#10;OuterClass can access Inner Class private members.&#10;&#10;without static keyword inner class object cannot be created." />
   </component>
 </project>
