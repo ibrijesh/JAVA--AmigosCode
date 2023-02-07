@@ -35,14 +35,20 @@ public class Main {
         }
 
         public Cat(String name, int age, String color) {
+            this(name, age);       // inside constructor
+            // this();          only on first line inside constructor can be called.
+            this.color = color;
+        }
+
+        public Cat(String name, int age) {
             this.name = name;
             this.age = age;
-            this.color = color;
         }
 
         public Cat(String name) {
             this.name = name;
             this.age = 0;
+            this.color = null;
         }
 
         public void meow() {
