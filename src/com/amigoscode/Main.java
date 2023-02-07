@@ -6,7 +6,9 @@ public class Main {
     public static void main(String[] args) {
         // Classes and Objects
 
-        Cat cat = new Cat("Rose", 2);
+        Cat cat = new Cat();
+        cat.setName("Joe");
+        cat.setAge(5);
         System.out.println(cat.getName());
         System.out.println(cat.getAge());
         cat.meow();
@@ -18,10 +20,8 @@ public class Main {
         private String name;
         private int age;
 
-        // constructor
-        public Cat(String name, int age) {
-            this.name = name;
-            this.age = age;
+        // Default constructor, with no argument
+        public Cat() {
         }
 
         public void meow() {
