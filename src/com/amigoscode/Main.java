@@ -34,6 +34,7 @@ public class Main {
         public Cat() {
         }
 
+        // this keyword eliminate confusion between method local variable vs class variables.
         public Cat(String name, int age, String color) {
             this(name, age);       // inside constructor
             // this();          only on first line inside constructor can be called.

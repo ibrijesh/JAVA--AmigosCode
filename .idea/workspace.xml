@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="toString()&#10;&#10;The toString method is used to return a string representation of an object.">
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="this keyword&#10;&#10;The this keyword refers to the current object in a method or constructor. &#10;&#10;The most common use of the this keyword is to eliminate the confusion between class attributes and parameters with the same name (because a class attribute is shadowed by a method or constructor parameter).">
       <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +145,7 @@
       <workItem from="1675413595896" duration="468000" />
       <workItem from="1675587148674" duration="1312000" />
       <workItem from="1675764002229" duration="1491000" />
-      <workItem from="1675767039554" duration="4894000" />
+      <workItem from="1675767039554" duration="5561000" />
     </task>
     <task id="LOCAL-00001" summary="Initial AmigosCode Java Project Setup">
       <created>1674978323360</created>
@@ -434,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675771762130</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Inside Constructor&#10;&#10;It helps to reuse constructors.&#10;&#10;(imp) Only on First Line inside constructor can be called.&#10;&#10;Calling another constructor inside constructor.">
+      <created>1675772557475</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1675772557475</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,8 +490,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Wrapper Class&#10;&#10;The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.&#10;&#10;Change the value in Method: Java supports only call by value. So, if we pass a primitive value, it will not change the original value. But, if we convert the primitive value in an object, it will change the original value." />
-    <MESSAGE value="Dates - Working with Dates&#10;&#10;LocalDateTime Class" />
     <MESSAGE value="Dates - Working with LocalDate and LocalTime Classes" />
     <MESSAGE value="Dates - Creating a Specific Date" />
     <MESSAGE value="Dates - Working with ZoneId" />
@@ -508,6 +513,8 @@
     <MESSAGE value="Default Constructor&#10;&#10;It does not contain any arguments." />
     <MESSAGE value="Multiple Constructor" />
     <MESSAGE value="toString()&#10;&#10;The toString method is used to return a string representation of an object." />
-    <option name="LAST_COMMIT_MESSAGE" value="toString()&#10;&#10;The toString method is used to return a string representation of an object." />
+    <MESSAGE value="Inside Constructor&#10;&#10;It helps to reuse constructors.&#10;&#10;(imp) Only on First Line inside constructor can be called.&#10;&#10;Calling another constructor inside constructor." />
+    <MESSAGE value="this keyword&#10;&#10;The this keyword refers to the current object in a method or constructor. &#10;&#10;The most common use of the this keyword is to eliminate the confusion between class attributes and parameters with the same name (because a class attribute is shadowed by a method or constructor parameter)." />
+    <option name="LAST_COMMIT_MESSAGE" value="this keyword&#10;&#10;The this keyword refers to the current object in a method or constructor. &#10;&#10;The most common use of the this keyword is to eliminate the confusion between class attributes and parameters with the same name (because a class attribute is shadowed by a method or constructor parameter)." />
   </component>
 </project>
