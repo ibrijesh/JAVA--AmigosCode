@@ -1,5 +1,7 @@
 package com.amigoscode;
 
+import java.util.Objects;
+
 // outer class
 public class Main {
 
@@ -9,11 +11,15 @@ public class Main {
         Cat rose = new Cat("Rose", 2, "Blue");
         Cat rose1 = new Cat("Rose", 2, "Blue");
 
-        System.out.println(rose.equals(rose1));   // No, bcz  internal implementation of .equals to uses the ==
+        System.out.println(rose.equals(rose1));   // yes
 
         Cat rose2 = rose;
 
-        System.out.println(rose.equals(rose2)); // Yes, but it still compares references not Objects values bcz  internal implementation of .equals to uses the ==
+        System.out.println(rose.equals(rose2)); // yes
+
+        Cat rose3 = new Cat("Rose", 2, "Green");
+
+        System.out.println(rose.equals(rose3));  // No
 
 
     }
@@ -84,6 +90,20 @@ public class Main {
                     ", age=" + age +
                     ", color='" + color + '\'' +
                     '}';
+        }
+
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            Cat cat = (Cat) o;
+            return age == cat.age && Objects.equals(name, cat.name) && Objects.equals(color, cat.color);
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(name, age, color);
         }
     }
 
