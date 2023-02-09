@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Generate Override .equals Method&#10;&#10;We have to Override .equals method instead of using == default implementation in .equals.">
-      <change afterPath="$PROJECT_DIR$/src/com/amigoscode/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/amigoscode/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/amigoscode/Person.java" afterDir="false" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Person and Cats Example">
+      <change afterPath="$PROJECT_DIR$/src/com/amigoscode/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -474,7 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675965666689</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Person and Cat">
+      <created>1675967107711</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1675967107711</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Person and Cats Example">
+      <created>1675967131352</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1675967131352</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,8 +534,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Big Decimal - Working &#10;&#10;&#10;Solves Precision Issue with Double" />
-    <MESSAGE value="Big Decimal - Working with Other Methods.&#10;&#10;&#10;Solves Precision Issue with Double" />
     <MESSAGE value="Taking User Input - Scanner" />
     <MESSAGE value="Working with Files&#10;&#10;Creating and Delete a File." />
     <MESSAGE value="Working with Files - Creating and Delete a File." />
@@ -548,6 +557,8 @@
     <MESSAGE value="Compare Objects with ==&#10;&#10;It does not compare variable value but references." />
     <MESSAGE value="Compare Objects with .equals&#10;&#10;Still it does not compare variable value but references because internal implementation of .equals to uses the ==.&#10;&#10;We have to Override the .equals method" />
     <MESSAGE value="Generate Override .equals Method&#10;&#10;We have to Override .equals method instead of using == default implementation in .equals." />
-    <option name="LAST_COMMIT_MESSAGE" value="Generate Override .equals Method&#10;&#10;We have to Override .equals method instead of using == default implementation in .equals." />
+    <MESSAGE value="Person and Cat" />
+    <MESSAGE value="Person and Cats Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Person and Cats Example" />
   </component>
 </project>
