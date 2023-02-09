@@ -9,11 +9,11 @@ public class Main {
         Cat rose = new Cat("Rose", 2, "Blue");
         Cat rose1 = new Cat("Rose", 2, "Blue");
 
-        System.out.println(rose == rose1);   // No, because still reference are different.
+        System.out.println(rose.equals(rose1));   // No, bcz  internal implementation of .equals to uses the ==
 
         Cat rose2 = rose;
 
-        System.out.println(rose == rose2); // Yes, but it still compares references not Objects values .
+        System.out.println(rose.equals(rose2)); // Yes, but it still compares references not Objects values bcz  internal implementation of .equals to uses the ==
 
 
     }
