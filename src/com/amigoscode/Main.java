@@ -1,96 +1,35 @@
 package com.amigoscode;
 
-// outer class
 public class Main {
 
     public static void main(String[] args) {
-        // Classes and Objects
+        // Override
 
-        /* Working with Default constructor */
-        Cat joe = new Cat();
-        joe.setName("Joe");
-        joe.setAge(5);
-        joe.setColor("Black");
-        System.out.println(joe);
-
-
-        /* Working with Parameterized constructor */
-        Cat rose = new Cat("Rose", 2, "Blue");
-        System.out.println(rose);
+        /* Child class reference and Object */
+        ChildClass childClass = new ChildClass();
+        childClass.nonStaticMethod();
+        childClass.staticMethod();
+        System.out.println('\n');
 
 
-        Cat jupiter = new Cat("Jupiter");
-        System.out.println(jupiter);
+        /* Parent class reference and Object  */
 
-    }
-
-    // inner class
-    static class Cat {
-        private String name;
-        private int age;
-        private String color;
-
-        // Multiple Constructor
-        public Cat() {
-        }
-
-        // this keyword eliminate confusion between method local variable vs class variables.
-        public Cat(String name, int age, String color) {
-            this(name, age);       // inside constructor
-            // this();          only on first line inside constructor can be called.
-            this.color = color;
-        }
-
-        public Cat(String name, int age) {
-            this.name = name;
-            this.age = age;
-        }
-
-        public Cat(String name) {
-            this.name = name;
-            this.age = 0;
-            this.color = null;
-        }
-
-        public void meow() {
-            System.out.println(name + ": meow...");
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public int getAge() {
-            return age;
-        }
-
-        public String getColor() {
-            return color;
-        }
-
-        public void setAge(int age) {
-            this.age = age;
-        }
+        ParentClass parentClass = new ParentClass();
+        parentClass.nonStaticMethod();
+        parentClass.staticMethod();
+        System.out.println('\n');
 
 
-        public void setColor(String color) {
-            this.color = color;
-        }
+        /* Parent class reference but Child Class Object  */
 
-        /* toString */
+        ParentClass parentChildClass = new ChildClass();
+        parentChildClass.nonStaticMethod();    // override by child class
+        parentChildClass.staticMethod(); // static method can not override by child class.
+        System.out.println('\n');
 
-        @Override
-        public String toString() {
-            return "Cat{" +
-                    "name='" + name + '\'' +
-                    ", age=" + age +
-                    ", color='" + color + '\'' +
-                    '}';
-        }
+
+        /* Child Class reference but Parent Class Object, but not possible */
+
     }
 
 }
