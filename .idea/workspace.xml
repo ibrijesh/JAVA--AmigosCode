@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="POJO  (Plain Old Java Object)&#10;&#10;POJO do not have dependency on any framework. &#10;&#10;Car , Cat , Person are POJOS does not depend on any other framework.">
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Car.java" afterDir="false" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Java Bean&#10;&#10;Must Implement Serializable (but not in POJO)&#10;Must have private members&#10;Must have default constructor&#10;Must have Getter and Setter">
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,13 +149,6 @@
       <workItem from="1675764002229" duration="1491000" />
       <workItem from="1675767039554" duration="5561000" />
       <workItem from="1675840860768" duration="3682000" />
-    </task>
-    <task id="LOCAL-00002" summary="Compiled using Javac , out stores all the compiled classes">
-      <created>1674979264015</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1674979264015</updated>
     </task>
     <task id="LOCAL-00003" summary="Compiled using Javac , out stores all the compiled classes">
       <created>1674979389350</created>
@@ -491,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675969084572</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Java Bean&#10;&#10;Must Implement Serializable (but not in POJO)&#10;Must have private members&#10;Must have default constructor&#10;Must have Getter and Setter">
+      <created>1675969707587</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1675969707587</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Working with Files - Creating and Delete a File." />
     <MESSAGE value="Working with Files - Create and Delete a File." />
     <MESSAGE value="Working with Files - Writing to Files" />
     <MESSAGE value="Working with Files - Reading From Files" />
@@ -565,6 +566,7 @@
     <MESSAGE value="Person and Cats Example" />
     <MESSAGE value="POJO in Java stands for Plain Old Java Object.&#10;&#10;POJO do not have dependency on any framework. &#10;&#10;Car , Cat , Person are POJOS does not depend on any other framework." />
     <MESSAGE value="POJO  (Plain Old Java Object)&#10;&#10;POJO do not have dependency on any framework. &#10;&#10;Car , Cat , Person are POJOS does not depend on any other framework." />
-    <option name="LAST_COMMIT_MESSAGE" value="POJO  (Plain Old Java Object)&#10;&#10;POJO do not have dependency on any framework. &#10;&#10;Car , Cat , Person are POJOS does not depend on any other framework." />
+    <MESSAGE value="Java Bean&#10;&#10;Must Implement Serializable (but not in POJO)&#10;Must have private members&#10;Must have default constructor&#10;Must have Getter and Setter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Bean&#10;&#10;Must Implement Serializable (but not in POJO)&#10;Must have private members&#10;Must have default constructor&#10;Must have Getter and Setter" />
   </component>
 </project>

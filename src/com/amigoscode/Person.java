@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Objects;
 
 public class Person {
+    protected static int count = 0;
     private String firstName;
     private String lastName;
     private Gender gender;
@@ -15,12 +16,14 @@ public class Person {
         this.lastName = lastName;
         this.gender = gender;
         this.cats = cats;
+        count++;
     }
 
     public Person(String firstName, String lastName, Gender gender) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
+        count++;
     }
 
     public String getFirstName() {
