@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Java Bean&#10;&#10;Must Implement Serializable (but not in POJO)&#10;Must have private members&#10;Must have default constructor&#10;Must have Getter and Setter">
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Person.java" afterDir="false" />
-    </list>
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Static Keyword&#10;&#10;static keyword belongs to Class not to instance of Class (object)." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,20 +145,6 @@
       <workItem from="1675764002229" duration="1491000" />
       <workItem from="1675767039554" duration="5561000" />
       <workItem from="1675840860768" duration="3682000" />
-    </task>
-    <task id="LOCAL-00003" summary="Compiled using Javac , out stores all the compiled classes">
-      <created>1674979389350</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1674979389350</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Compiled using Javac , out stores all the  (successfully) compiled classes">
-      <created>1674979419701</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1674979419701</updated>
     </task>
     <task id="LOCAL-00005" summary="Static v/s Non-static Data Member Access Inside Same Class , In Different Class and In Different Package.">
       <created>1675062859457</created>
@@ -493,7 +475,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675969707587</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Static Keyword&#10;&#10;static keyword belongs to Class not to instance of Class (object).">
+      <created>1675970399930</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1675970399930</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Static Keyword&#10;&#10;static keyword belongs to Class not to instance of Class (object).">
+      <created>1675970443593</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1675970443593</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +538,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Working with Files - Create and Delete a File." />
     <MESSAGE value="Working with Files - Writing to Files" />
     <MESSAGE value="Working with Files - Reading From Files" />
     <MESSAGE value="Working with Files - Try with Resources&#10;&#10;Any class which Implements Closeable ,Flushable need not to write flush() and close() rather can use Try with resources." />
@@ -567,6 +562,7 @@
     <MESSAGE value="POJO in Java stands for Plain Old Java Object.&#10;&#10;POJO do not have dependency on any framework. &#10;&#10;Car , Cat , Person are POJOS does not depend on any other framework." />
     <MESSAGE value="POJO  (Plain Old Java Object)&#10;&#10;POJO do not have dependency on any framework. &#10;&#10;Car , Cat , Person are POJOS does not depend on any other framework." />
     <MESSAGE value="Java Bean&#10;&#10;Must Implement Serializable (but not in POJO)&#10;Must have private members&#10;Must have default constructor&#10;Must have Getter and Setter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Bean&#10;&#10;Must Implement Serializable (but not in POJO)&#10;Must have private members&#10;Must have default constructor&#10;Must have Getter and Setter" />
+    <MESSAGE value="Static Keyword&#10;&#10;static keyword belongs to Class not to instance of Class (object)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Static Keyword&#10;&#10;static keyword belongs to Class not to instance of Class (object)." />
   </component>
 </project>
