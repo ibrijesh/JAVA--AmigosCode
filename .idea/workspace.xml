@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Package (Directory or Folder)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Model or Domain&#10;&#10;It represents structure of data to be dealt with." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,20 +146,6 @@
       <workItem from="1675767039554" duration="5561000" />
       <workItem from="1675840860768" duration="3682000" />
       <workItem from="1676043530669" duration="4020000" />
-    </task>
-    <task id="LOCAL-00012" summary="Final keyword&#10;&#10;Its like const in c++ but it comes with limited usage compared to c++.">
-      <created>1675154072387</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1675154072387</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Enums&#10;&#10;We should use enum types any time you need to represent a fixed set of constants.">
-      <created>1675156418313</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1675156418313</updated>
     </task>
     <task id="LOCAL-00014" summary="Enums -Methods&#10;&#10;We should use enum types any time you need to represent a fixed set of constants.">
       <created>1675156600239</created>
@@ -492,7 +476,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676103854140</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Package (Directory or Folder)">
+      <created>1676104159058</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1676104159058</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Model or Domain&#10;&#10;It represents structure of data to be dealt with.">
+      <created>1676104547553</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1676104547553</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Setters" />
     <MESSAGE value="Getters" />
     <MESSAGE value="Constructor" />
     <MESSAGE value="Default Constructor&#10;&#10;It does not contain any arguments." />
@@ -566,6 +563,7 @@
     <MESSAGE value="Instance Initialization Block &#10;&#10;It's invoked per Object of Class.&#10;&#10;It's helps writing non-duplicate code." />
     <MESSAGE value="Package (Directory of Folder)" />
     <MESSAGE value="Package (Directory or Folder)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Package (Directory or Folder)" />
+    <MESSAGE value="Model or Domain&#10;&#10;It represents structure of data to be dealt with." />
+    <option name="LAST_COMMIT_MESSAGE" value="Model or Domain&#10;&#10;It represents structure of data to be dealt with." />
   </component>
 </project>

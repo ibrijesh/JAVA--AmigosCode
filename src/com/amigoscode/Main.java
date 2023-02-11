@@ -10,7 +10,8 @@ public class Main {
         // Packages
         // Domain / Model
         // Services Classes -> business logic
-        // DAO Classes
+        // DAO Classes (Data Access Object)
+        // Controller / REST API
         // Utility classes
         // Configuration class
 
