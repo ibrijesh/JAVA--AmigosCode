@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Encapsulation in action&#10;&#10;Encapsulation- Representing data (variable) and behaviour(methods) under single unit (Class)." />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="The Problem with Non-Private Fields.&#10;&#10;Non-Private can be manipulated by external entity." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +53,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/amigoscode" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Apple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amigoscode.foo.Apple" />
@@ -360,7 +365,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676110398462</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Encapsulation in action&#10;&#10;Encapsulation- Representing data (variable) and behaviour(methods) under single unit (Class).">
+      <created>1676110515352</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1676110515352</updated>
+    </task>
+    <task id="LOCAL-00033" summary="The Problem with Non-Private Fields.&#10;&#10;Non-Private can be manipulated by external entity.">
+      <created>1676111406008</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1676111406008</updated>
+    </task>
+    <task id="LOCAL-00034" summary="The Problem with Non-Private Fields.&#10;&#10;Non-Private can be manipulated by external entity.">
+      <created>1676111421021</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1676111421021</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,8 +435,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Access Modifier-Private&#10;&#10;Same Class                               Yes&#10;Same Package Class                       No &#10;Same Package SubClass                    No&#10;Different Package                        No &#10;Different Package SubClass               No" />
-    <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes(but not non-static members)" />
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes (but not non-static members)" />
     <MESSAGE value="Access Modifier-Default&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               No" />
     <MESSAGE value="Type Inference with Var keyword&#10;&#10;It works with local variable only.&#10;&#10;Java&gt;=10" />
@@ -434,6 +458,8 @@
     <MESSAGE value="Working with Files - Reading From Files" />
     <MESSAGE value="Working with Files - Try with Resources&#10;&#10;Any class which Implements Closeable ,Flushable need not to write flush() and close() rather can use Try with resources." />
     <MESSAGE value="Encapsulation in action&#10;&#10;Encapsulation- Representing data (variable) and behaviour(methods) under single unit (Class)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Encapsulation in action&#10;&#10;Encapsulation- Representing data (variable) and behaviour(methods) under single unit (Class)." />
+    <MESSAGE value="The Problem with Non-Private Fields&#10;&#10;Non-Private can be manipulated by external entity." />
+    <MESSAGE value="The Problem with Non-Private Fields.&#10;&#10;Non-Private can be manipulated by external entity." />
+    <option name="LAST_COMMIT_MESSAGE" value="The Problem with Non-Private Fields.&#10;&#10;Non-Private can be manipulated by external entity." />
   </component>
 </project>
