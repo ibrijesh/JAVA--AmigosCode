@@ -1,5 +1,6 @@
 package com.amigoscode;
 
+import static java.lang.Math.*;
 
 public class Main {
 
@@ -15,13 +16,9 @@ public class Main {
     public static void main(String[] args) {
         // Static Keyword
 
-        new Person();
-        System.out.println(Person.count);
-
-        System.out.println();
-
-        new Person();            // static initialization block is not invoked.
-        System.out.println(Person.count);
+        System.out.println(max(10, 20));
+        System.out.println(min(10, 20));
+        System.out.println(sqrt(16));
 
     }
 

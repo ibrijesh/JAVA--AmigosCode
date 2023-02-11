@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Static Initialization Block&#10;&#10;It's invoked Only Once per Class.&#10;&#10;Only static variables can be used inside static initialization block.&#10;&#10;It can be used to initialize static variable.">
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Person.java" afterDir="false" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Instance Initialization Block &#10;&#10;It's invoked per Object of Class.&#10;&#10;It's helps writing non-duplicate code.">
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,21 +147,7 @@
       <workItem from="1675764002229" duration="1491000" />
       <workItem from="1675767039554" duration="5561000" />
       <workItem from="1675840860768" duration="3682000" />
-      <workItem from="1676043530669" duration="3225000" />
-    </task>
-    <task id="LOCAL-00007" summary="Access Modifier-Private&#10;&#10;Same Class                               Yes&#10;Same Package Class                       No &#10;Same Package SubClass                    No&#10;Different Package                        No &#10;Different Package SubClass               No">
-      <created>1675146137052</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1675146137052</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes (but not non-static members)">
-      <created>1675147576945</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1675147576945</updated>
+      <workItem from="1676043530669" duration="4020000" />
     </task>
     <task id="LOCAL-00009" summary="Access Modifier-Default&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               No">
       <created>1675147863962</created>
@@ -492,7 +478,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676100561044</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Instance  Block Initialization&#10;&#10;It's invoked per Object of Class.&#10;&#10;It's helps writing non-duplicate code.">
+      <created>1676101927482</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1676101927482</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Instance Initialization Block &#10;&#10;It's invoked per Object of Class.&#10;&#10;It's helps writing non-duplicate code.">
+      <created>1676101953022</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1676101953022</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,8 +541,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Final keyword&#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
-    <MESSAGE value="Classes and Objects" />
     <MESSAGE value="Your First Class &#10;&#10;&#10;without static keyword inner class object cannot be created." />
     <MESSAGE value="Your First Class &#10;&#10;OuterClass can access Inner Class private members.&#10;&#10;without static keyword inner class object cannot be created." />
     <MESSAGE value="Setters" />
@@ -566,6 +564,8 @@
     <MESSAGE value="Static Initialization Block&#10;&#10;Only static variables can be used inside static initialization block.&#10;&#10;It can be used to initialize static variable." />
     <MESSAGE value="Static Initialization Block&#10;&#10;It's invoked Once per Class.&#10;&#10;Only static variables can be used inside static initialization block.&#10;&#10;It can be used to initialize static variable." />
     <MESSAGE value="Static Initialization Block&#10;&#10;It's invoked Only Once per Class.&#10;&#10;Only static variables can be used inside static initialization block.&#10;&#10;It can be used to initialize static variable." />
-    <option name="LAST_COMMIT_MESSAGE" value="Static Initialization Block&#10;&#10;It's invoked Only Once per Class.&#10;&#10;Only static variables can be used inside static initialization block.&#10;&#10;It can be used to initialize static variable." />
+    <MESSAGE value="Instance  Block Initialization&#10;&#10;It's invoked per Object of Class.&#10;&#10;It's helps writing non-duplicate code." />
+    <MESSAGE value="Instance Initialization Block &#10;&#10;It's invoked per Object of Class.&#10;&#10;It's helps writing non-duplicate code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Instance Initialization Block &#10;&#10;It's invoked per Object of Class.&#10;&#10;It's helps writing non-duplicate code." />
   </component>
 </project>
