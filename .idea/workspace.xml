@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Working with Files - Try with Resources&#10;&#10;Any class which Implements Closeable ,Flushable need not to write flush() and close() rather can use Try with resources.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Encapsulation in action&#10;&#10;Encapsulation- Representing data (variable) and behaviour(methods) under single unit (Class)." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ibrijesh/Desktop/Java- Amigo Code/JAVA-AmigosCode",
+    "last_opened_file_path": "/home/ibrijesh/Desktop/Java- Amigo Code/JAVA-AmigosCode/src/com/amigoscode",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -356,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675692864390</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Encapsulation in action&#10;&#10;Encapsulation- Representing data (variable) and behaviour(methods) under single unit (Class).">
+      <created>1676110398462</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1676110398462</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +409,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Access Modifier-Public&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        Yes &#10;Different Package SubClass               Yes" />
     <MESSAGE value="Access Modifier-Private&#10;&#10;Same Class                               Yes&#10;Same Package Class                       No &#10;Same Package SubClass                    No&#10;Different Package                        No &#10;Different Package SubClass               No" />
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes(but not non-static members)" />
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes (but not non-static members)" />
@@ -430,6 +433,7 @@
     <MESSAGE value="Working with Files - Writing to Files" />
     <MESSAGE value="Working with Files - Reading From Files" />
     <MESSAGE value="Working with Files - Try with Resources&#10;&#10;Any class which Implements Closeable ,Flushable need not to write flush() and close() rather can use Try with resources." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with Files - Try with Resources&#10;&#10;Any class which Implements Closeable ,Flushable need not to write flush() and close() rather can use Try with resources." />
+    <MESSAGE value="Encapsulation in action&#10;&#10;Encapsulation- Representing data (variable) and behaviour(methods) under single unit (Class)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Encapsulation in action&#10;&#10;Encapsulation- Representing data (variable) and behaviour(methods) under single unit (Class)." />
   </component>
 </project>
