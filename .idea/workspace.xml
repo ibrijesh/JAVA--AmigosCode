@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Instance Initialization Block &#10;&#10;It's invoked per Object of Class.&#10;&#10;It's helps writing non-duplicate code.">
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Package (Directory or Folder)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.amigoscode.*" />
+          <option name="PATTERN" value="com.amigoscode.cat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,7 +87,7 @@
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.amigoscode.*" />
+          <option name="PATTERN" value="com.amigoscode.cat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,7 +113,7 @@
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.amigoscode.*" />
+          <option name="PATTERN" value="com.amigoscode.cat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,27 +148,6 @@
       <workItem from="1675767039554" duration="5561000" />
       <workItem from="1675840860768" duration="3682000" />
       <workItem from="1676043530669" duration="4020000" />
-    </task>
-    <task id="LOCAL-00009" summary="Access Modifier-Default&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               No">
-      <created>1675147863962</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1675147863962</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Type Inference with Var keyword&#10;&#10;It works with local variable only.&#10;&#10;Java&gt;=10">
-      <created>1675149144793</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1675149144793</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Final keyword , &#10;&#10;Its like const in c++ but it comes with limited usage compared to c++.">
-      <created>1675154064558</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1675154064558</updated>
     </task>
     <task id="LOCAL-00012" summary="Final keyword&#10;&#10;Its like const in c++ but it comes with limited usage compared to c++.">
       <created>1675154072387</created>
@@ -492,7 +471,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676101953022</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Package (Directory of Folder)">
+      <created>1676103692295</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1676103692295</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Package (Directory of Folder)">
+      <created>1676103841917</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1676103841917</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Package (Directory or Folder)">
+      <created>1676103854139</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1676103854140</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,8 +541,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Your First Class &#10;&#10;&#10;without static keyword inner class object cannot be created." />
-    <MESSAGE value="Your First Class &#10;&#10;OuterClass can access Inner Class private members.&#10;&#10;without static keyword inner class object cannot be created." />
     <MESSAGE value="Setters" />
     <MESSAGE value="Getters" />
     <MESSAGE value="Constructor" />
@@ -566,6 +564,8 @@
     <MESSAGE value="Static Initialization Block&#10;&#10;It's invoked Only Once per Class.&#10;&#10;Only static variables can be used inside static initialization block.&#10;&#10;It can be used to initialize static variable." />
     <MESSAGE value="Instance  Block Initialization&#10;&#10;It's invoked per Object of Class.&#10;&#10;It's helps writing non-duplicate code." />
     <MESSAGE value="Instance Initialization Block &#10;&#10;It's invoked per Object of Class.&#10;&#10;It's helps writing non-duplicate code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Instance Initialization Block &#10;&#10;It's invoked per Object of Class.&#10;&#10;It's helps writing non-duplicate code." />
+    <MESSAGE value="Package (Directory of Folder)" />
+    <MESSAGE value="Package (Directory or Folder)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Package (Directory or Folder)" />
   </component>
 </project>
