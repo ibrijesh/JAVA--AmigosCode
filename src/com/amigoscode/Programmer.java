@@ -18,4 +18,13 @@ public class Programmer extends Employee {
         super.sayHi();
         System.out.println(this.name + ": Writing Some Code");
     }
+
+    @Override
+    public void sayHi() {
+        var msg = """
+                Hello  my name is %s
+                I am invoked by Programmer Class
+                """.formatted(this.name);
+        System.out.println(msg);
+    }
 }

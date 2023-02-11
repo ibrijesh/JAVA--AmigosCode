@@ -16,14 +16,7 @@ public class Main {
                 languages);
 
 
-        java.writeSomeCode();
-
-        /* Even thoe these functions are not declared in Programmer, but these public functions are inherited from Employee class */
-
-        System.out.println(java.getName());
-        System.out.println(java.getAge());
-        System.out.println(java.getAddress());
-        System.out.println(java.getExperience());
+        java.sayHi();
 
     }
 
