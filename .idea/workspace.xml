@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="The Problem with Non-Private Fields.&#10;&#10;Non-Private can be manipulated by external entity." />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="The Problem with Non-Private Fields.&#10;&#10;Non-Private can be manipulated by external entity.">
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/BankAccount.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -386,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676111421021</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="The Problem with Non-Private Fields.&#10;&#10;Non-Private can be manipulated by external entity.">
+      <created>1676135885813</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1676135885813</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

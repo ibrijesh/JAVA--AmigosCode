@@ -13,18 +13,13 @@ public class Main {
                 account.withdraw(new BigDecimal("9.0"))
         );
 
-        System.out.println(account.balance); // 1.0
+        System.out.println(account.getBalance()); // 1.0
 
         System.out.println(
                 account.withdraw(new BigDecimal("1.0"))
         );
 
-        System.out.println(account.balance); //0.0
-
-        /* but system is manipulated */
-        account.balance = new BigDecimal("100.0");
-
-        System.out.println(account.balance);
+        System.out.println(account.getBalance()); //0.0
 
 
     }
