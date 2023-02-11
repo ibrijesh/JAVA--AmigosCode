@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Static Keyword&#10;&#10;static keyword belongs to Class not to instance of Class (object)." />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Static Initialization Block&#10;&#10;Only static variables can be used inside static initialization block.&#10;&#10;It can be used to initialize static variable.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,13 +148,7 @@
       <workItem from="1675764002229" duration="1491000" />
       <workItem from="1675767039554" duration="5561000" />
       <workItem from="1675840860768" duration="3682000" />
-    </task>
-    <task id="LOCAL-00005" summary="Static v/s Non-static Data Member Access Inside Same Class , In Different Class and In Different Package.">
-      <created>1675062859457</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1675062859457</updated>
+      <workItem from="1676043530669" duration="2450000" />
     </task>
     <task id="LOCAL-00006" summary="Access Modifier-Public&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        Yes &#10;Different Package SubClass               Yes">
       <created>1675145904662</created>
@@ -489,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675970443593</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Static Initialization Block&#10;&#10;Only static variables can be used inside static initialization block.&#10;&#10;It can be used to initialize static variable.">
+      <created>1676100217715</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1676100217716</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,8 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Working with Files - Writing to Files" />
-    <MESSAGE value="Working with Files - Reading From Files" />
     <MESSAGE value="Working with Files - Try with Resources&#10;&#10;Any class which Implements Closeable ,Flushable need not to write flush() and close() rather can use Try with resources." />
     <MESSAGE value="Final keyword&#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
     <MESSAGE value="Classes and Objects" />
@@ -563,6 +565,8 @@
     <MESSAGE value="POJO  (Plain Old Java Object)&#10;&#10;POJO do not have dependency on any framework. &#10;&#10;Car , Cat , Person are POJOS does not depend on any other framework." />
     <MESSAGE value="Java Bean&#10;&#10;Must Implement Serializable (but not in POJO)&#10;Must have private members&#10;Must have default constructor&#10;Must have Getter and Setter" />
     <MESSAGE value="Static Keyword&#10;&#10;static keyword belongs to Class not to instance of Class (object)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Static Keyword&#10;&#10;static keyword belongs to Class not to instance of Class (object)." />
+    <MESSAGE value="Static Initialization Block&#10;&#10;Only static variables can be used inside static initialization block.&#10;&#10;It can be used to initialize static variable." />
+    <MESSAGE value="Static Initialization Block&#10;&#10;It's invoked Once per Class.&#10;&#10;Only static variables can be used inside static initialization block.&#10;&#10;It can be used to initialize static variable." />
+    <option name="LAST_COMMIT_MESSAGE" value="Static Initialization Block&#10;&#10;It's invoked Once per Class.&#10;&#10;Only static variables can be used inside static initialization block.&#10;&#10;It can be used to initialize static variable." />
   </component>
 </project>

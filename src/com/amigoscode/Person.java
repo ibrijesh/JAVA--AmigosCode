@@ -4,12 +4,24 @@ import java.util.Arrays;
 import java.util.Objects;
 
 public class Person {
-    protected static int count = 0;
+    protected static int count;
+
+    static {
+        System.out.println("start: static initialization");
+        count = 0;
+        System.out.println("end: static initialization");
+
+    }
+
     private String firstName;
     private String lastName;
     private Gender gender;
     private Cat[] cats;
 
+    public Person() {
+        System.out.println("default constructor");
+        count++;
+    }
 
     public Person(String firstName, String lastName, Gender gender, Cat[] cats) {
         this.firstName = firstName;
