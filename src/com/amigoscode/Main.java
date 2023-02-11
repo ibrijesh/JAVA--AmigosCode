@@ -15,6 +15,7 @@ public class Main {
     public static void main(String[] args) {
         // Static Keyword
 
+        new Person();
         System.out.println(Person.count);
 
         System.out.println();

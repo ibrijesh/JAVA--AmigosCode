@@ -18,9 +18,14 @@ public class Person {
     private Gender gender;
     private Cat[] cats;
 
+    // Instance Code Initialization //
+    {
+        System.out.println("Instance initialization block");
+        count++;
+    }
+
     public Person() {
         System.out.println("default constructor");
-        count++;
     }
 
     public Person(String firstName, String lastName, Gender gender, Cat[] cats) {
@@ -28,14 +33,12 @@ public class Person {
         this.lastName = lastName;
         this.gender = gender;
         this.cats = cats;
-        count++;
     }
 
     public Person(String firstName, String lastName, Gender gender) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
-        count++;
     }
 
     public String getFirstName() {
