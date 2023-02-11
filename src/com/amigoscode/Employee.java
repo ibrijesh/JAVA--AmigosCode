@@ -4,10 +4,10 @@ import java.util.Objects;
 
 // Super Class or Parent Class
 public class Employee {
-    private String name;
-    private int age;
-    private String address;
-    private String experience;
+    protected String name;
+    protected int age;
+    protected String address;
+    protected String experience;
 
     public Employee(String name, int age, String address, String experience) {
         this.name = name;

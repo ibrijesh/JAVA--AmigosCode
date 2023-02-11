@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Create an instance of Programmer&#10;&#10;Child class can access public variable and methods of Parent Class." />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Super Keyword&#10;&#10;t is used to call superclass(parent class) methods, and to access the superclass (parent class) constructor.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -367,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676139583918</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Super Keyword&#10;&#10;t is used to call superclass(parent class) methods, and to access the superclass (parent class) constructor.">
+      <created>1676140147569</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1676140147569</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +425,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes(but not non-static members)" />
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes (but not non-static members)" />
     <MESSAGE value="Access Modifier-Default&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               No" />
     <MESSAGE value="Type Inference with Var keyword&#10;&#10;It works with local variable only.&#10;&#10;Java&gt;=10" />
@@ -441,6 +449,7 @@
     <MESSAGE value="Working with Files - Try with Resources&#10;&#10;Any class which Implements Closeable ,Flushable need not to write flush() and close() rather can use Try with resources." />
     <MESSAGE value="Implementing Inheritance" />
     <MESSAGE value="Create an instance of Programmer&#10;&#10;Child class can access public variable and methods of Parent Class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create an instance of Programmer&#10;&#10;Child class can access public variable and methods of Parent Class." />
+    <MESSAGE value="Super Keyword&#10;&#10;t is used to call superclass(parent class) methods, and to access the superclass (parent class) constructor." />
+    <option name="LAST_COMMIT_MESSAGE" value="Super Keyword&#10;&#10;t is used to call superclass(parent class) methods, and to access the superclass (parent class) constructor." />
   </component>
 </project>
