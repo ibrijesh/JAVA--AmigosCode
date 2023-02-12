@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Protected Access Modifier&#10;&#10;Subclass(child class) can access protected variables and methods.">
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Programmer.java" afterDir="false" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Override&#10;&#10;method overriding occurs when a subclass provides a particular implementation of a method declared by one of its parent classes">
+      <change afterPath="$PROJECT_DIR$/src/com/amigoscode/SingleAndMultiLevelInheritance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ibrijesh/Desktop/Java- Amigo Code/JAVA-AmigosCode&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/ibrijesh/Desktop/Java- Amigo Code/JAVA-AmigosCode/src/com/amigoscode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Apple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amigoscode.foo.Apple" />
@@ -144,6 +145,7 @@
       <workItem from="1675060062149" duration="3489000" />
       <workItem from="1675413595896" duration="468000" />
       <workItem from="1675587148674" duration="1312000" />
+      <workItem from="1676175832974" duration="759000" />
     </task>
     <task id="LOCAL-00001" summary="Initial AmigosCode Java Project Setup">
       <created>1674978323360</created>
@@ -383,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676140603014</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Override&#10;&#10;method overriding occurs when a subclass provides a particular implementation of a method declared by one of its parent classes">
+      <created>1676141295487</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1676141295487</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +441,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Access Modifier-Default&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               No" />
     <MESSAGE value="Type Inference with Var keyword&#10;&#10;It works with local variable only.&#10;&#10;Java&gt;=10" />
     <MESSAGE value="Final keyword , &#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
     <MESSAGE value="Final keyword&#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
@@ -457,6 +465,7 @@
     <MESSAGE value="Create an instance of Programmer&#10;&#10;Child class can access public variable and methods of Parent Class." />
     <MESSAGE value="Super Keyword&#10;&#10;t is used to call superclass(parent class) methods, and to access the superclass (parent class) constructor." />
     <MESSAGE value="Protected Access Modifier&#10;&#10;Subclass(child class) can access protected variables and methods." />
-    <option name="LAST_COMMIT_MESSAGE" value="Protected Access Modifier&#10;&#10;Subclass(child class) can access protected variables and methods." />
+    <MESSAGE value="Override&#10;&#10;method overriding occurs when a subclass provides a particular implementation of a method declared by one of its parent classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Override&#10;&#10;method overriding occurs when a subclass provides a particular implementation of a method declared by one of its parent classes" />
   </component>
 </project>
