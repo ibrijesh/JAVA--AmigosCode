@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Maven Folder Structure" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="POM (Project Object Model)&#10;&#10;metadata of Project." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -374,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676357910947</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="POM (Project Object Model)&#10;&#10;metadata of Project.">
+      <created>1676358056605</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1676358056605</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +430,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes(but not non-static members)" />
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes (but not non-static members)" />
     <MESSAGE value="Access Modifier-Default&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               No" />
     <MESSAGE value="Type Inference with Var keyword&#10;&#10;It works with local variable only.&#10;&#10;Java&gt;=10" />
@@ -448,6 +454,7 @@
     <MESSAGE value="Working with Files - Try with Resources&#10;&#10;Any class which Implements Closeable ,Flushable need not to write flush() and close() rather can use Try with resources." />
     <MESSAGE value="Creating Maven Project" />
     <MESSAGE value="Maven Folder Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maven Folder Structure" />
+    <MESSAGE value="POM (Project Object Model)&#10;&#10;metadata of Project." />
+    <option name="LAST_COMMIT_MESSAGE" value="POM (Project Object Model)&#10;&#10;metadata of Project." />
   </component>
 </project>
