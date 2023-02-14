@@ -1,17 +1,19 @@
 package com.amigoscode;
 
 
+import java.io.FileNotFoundException;
+import java.nio.file.FileAlreadyExistsException;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileAlreadyExistsException, FileNotFoundException {
         // Abstract Keyword
 
-        // new Animal("Booby");   abstract class can not instantiated //
-        Animal dog = new Dog("foo");
-        Animal cat = new Cat("Bar");
+        // Number Extractor
+        new NumberExtractorReport().parseAndSendReport("src/data.txt");
 
-        dog.makeSound();
-        cat.makeSound();
+        // Email Extractor
+        new EmailExtractorReport().parseAndSendReport("src/data.txt");
 
     }
 

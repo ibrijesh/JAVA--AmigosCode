@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Abstraction Method&#10;&#10;Abstract Method can be declared inside Abstract Class Only.&#10;&#10;Abstract Class do not have implementation of Abstract Method.&#10;&#10;Subclasses have to provide an implementation for that method" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Abstraction Method&#10;&#10;Abstract Method can be declared inside Abstract Class Only.&#10;&#10;Abstract Class do not have implementation of Abstract Method.&#10;&#10;Subclasses have to provide an implementation for that method">
+      <change afterPath="$PROJECT_DIR$/src/com/amigoscode/EmailExtractorReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/amigoscode/ExtractorReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/amigoscode/NumberExtractorReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amigoscode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/foo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
