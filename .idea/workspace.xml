@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Writing Your First Unit Test.">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/amigoscode/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amigoscode/CalculatorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Test Scenarios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +153,7 @@
       <workItem from="1675060062149" duration="3489000" />
       <workItem from="1675413595896" duration="468000" />
       <workItem from="1675587148674" duration="1312000" />
-      <workItem from="1676362743707" duration="3037000" />
+      <workItem from="1676362743707" duration="3650000" />
     </task>
     <task id="LOCAL-00001" summary="Initial AmigosCode Java Project Setup">
       <created>1674978323360</created>
@@ -437,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676370737013</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Test Scenarios">
+      <created>1676371186987</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1676371186987</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +491,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Enums -Methods&#10;&#10;We should use enum types any time you need to represent a fixed set of constants." />
     <MESSAGE value="Wrapper Class&#10;&#10;The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.&#10;&#10;Change the value in Method: Java supports only call by value. So, if we pass a primitive value, it will not change the original value. But, if we convert the primitive value in an object, it will change the original value." />
     <MESSAGE value="Dates - Working with Dates&#10;&#10;LocalDateTime Class" />
     <MESSAGE value="Dates - Working with LocalDate and LocalTime Classes" />
@@ -511,6 +515,7 @@
     <MESSAGE value="Launching You First Test" />
     <MESSAGE value="Calculator and Calculator Test Classes." />
     <MESSAGE value="Writing Your First Unit Test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Writing Your First Unit Test." />
+    <MESSAGE value="Test Scenarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Scenarios" />
   </component>
 </project>
