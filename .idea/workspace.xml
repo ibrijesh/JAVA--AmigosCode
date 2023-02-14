@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Working with Files - Try with Resources&#10;&#10;Any class which Implements Closeable ,Flushable need not to write flush() and close() rather can use Try with resources.">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amigoscode/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amigoscode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amigoscode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/foo.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Maven Folder Structure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -371,7 +360,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675692864390</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Creating Maven Project">
+      <created>1676357639227</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1676357639227</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Maven Folder Structure">
+      <created>1676357910947</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1676357910947</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,8 +423,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Access Modifier-Public&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        Yes &#10;Different Package SubClass               Yes" />
-    <MESSAGE value="Access Modifier-Private&#10;&#10;Same Class                               Yes&#10;Same Package Class                       No &#10;Same Package SubClass                    No&#10;Different Package                        No &#10;Different Package SubClass               No" />
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes(but not non-static members)" />
     <MESSAGE value="Access Modifier-Protected&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               Yes (but not non-static members)" />
     <MESSAGE value="Access Modifier-Default&#10;&#10;Same Class                               Yes&#10;Same Package Class                       Yes &#10;Same Package SubClass                    Yes&#10;Different Package                        No &#10;Different Package SubClass               No" />
@@ -445,6 +446,8 @@
     <MESSAGE value="Working with Files - Writing to Files" />
     <MESSAGE value="Working with Files - Reading From Files" />
     <MESSAGE value="Working with Files - Try with Resources&#10;&#10;Any class which Implements Closeable ,Flushable need not to write flush() and close() rather can use Try with resources." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with Files - Try with Resources&#10;&#10;Any class which Implements Closeable ,Flushable need not to write flush() and close() rather can use Try with resources." />
+    <MESSAGE value="Creating Maven Project" />
+    <MESSAGE value="Maven Folder Structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maven Folder Structure" />
   </component>
 </project>
