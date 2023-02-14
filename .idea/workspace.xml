@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Installing JUnit">
-      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Launching You First Test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amigoscode/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/amigoscode/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -147,7 +151,7 @@
       <workItem from="1675060062149" duration="3489000" />
       <workItem from="1675413595896" duration="468000" />
       <workItem from="1675587148674" duration="1312000" />
-      <workItem from="1676362743707" duration="1415000" />
+      <workItem from="1676362743707" duration="1998000" />
     </task>
     <task id="LOCAL-00001" summary="Initial AmigosCode Java Project Setup">
       <created>1674978323360</created>
@@ -408,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676369283669</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Launching You First Test">
+      <created>1676369739138</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1676369739138</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +468,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Final keyword , &#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
     <MESSAGE value="Final keyword&#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
     <MESSAGE value="Enums&#10;&#10;We should use enum types any time you need to represent a fixed set of constants." />
     <MESSAGE value="Enums -Methods&#10;&#10;We should use enum types any time you need to represent a fixed set of constants." />
@@ -482,6 +492,7 @@
     <MESSAGE value="Target Folder&#10;&#10;The target directory is created by Maven. It contains all the compiled classes, JAR files etc" />
     <MESSAGE value="Installing Maven Dependencies" />
     <MESSAGE value="Installing JUnit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Installing JUnit" />
+    <MESSAGE value="Launching You First Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Launching You First Test" />
   </component>
 </project>
