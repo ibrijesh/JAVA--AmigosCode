@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Launching You First Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amigoscode/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/amigoscode/CalculatorTest.java" afterDir="false" />
+    <list default="true" id="6e9a4eba-4b13-425d-ba2f-524f978e0fce" name="Changes" comment="Calculator and Calculator Test Classes.">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/amigoscode/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amigoscode/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,20 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MyFirstTest">
-    <configuration name="Foo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amigoscode.Foo" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.amigoscode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalculatorTest.canTwoAddNumbers">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amigoscode.Main" />
       <module name="Java" />
@@ -106,8 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubClassInSamePkg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amigoscode.SubClassInSamePkg" />
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -115,6 +100,25 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.amigoscode" />
+      <option name="MAIN_CLASS_NAME" value="com.amigoscode.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.canTwoAddNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amigoscode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.amigoscode" />
+      <option name="MAIN_CLASS_NAME" value="com.amigoscode.CalculatorTest" />
+      <option name="METHOD_NAME" value="canTwoAddNumbers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.canTwoAddNumbers" />
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.MyFirstTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SubClassInDiffPkg" />
-        <item itemvalue="Application.SubClassInSamePkg" />
-        <item itemvalue="Application.Foo" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +155,7 @@
       <workItem from="1675060062149" duration="3489000" />
       <workItem from="1675413595896" duration="468000" />
       <workItem from="1675587148674" duration="1312000" />
-      <workItem from="1676362743707" duration="1998000" />
+      <workItem from="1676362743707" duration="2386000" />
     </task>
     <task id="LOCAL-00001" summary="Initial AmigosCode Java Project Setup">
       <created>1674978323360</created>
@@ -419,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676369739138</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Calculator and Calculator Test Classes.">
+      <created>1676370251116</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1676370251116</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +479,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Final keyword&#10;&#10;Its like const in c++ but it comes with limited usage compared to c++." />
     <MESSAGE value="Enums&#10;&#10;We should use enum types any time you need to represent a fixed set of constants." />
     <MESSAGE value="Enums -Methods&#10;&#10;We should use enum types any time you need to represent a fixed set of constants." />
     <MESSAGE value="Wrapper Class&#10;&#10;The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.&#10;&#10;Change the value in Method: Java supports only call by value. So, if we pass a primitive value, it will not change the original value. But, if we convert the primitive value in an object, it will change the original value." />
@@ -493,6 +503,7 @@
     <MESSAGE value="Installing Maven Dependencies" />
     <MESSAGE value="Installing JUnit" />
     <MESSAGE value="Launching You First Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Launching You First Test" />
+    <MESSAGE value="Calculator and Calculator Test Classes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator and Calculator Test Classes." />
   </component>
 </project>
